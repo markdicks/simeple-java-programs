@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="6" name="org.example.testing.calculatorTest" time="0.03" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.18+10-post-Ubuntu-0ubuntu122.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/wtc/java/testingCalculator/src"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/wtc/java/testingCalculator/src"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.18+10-post-Ubuntu-0ubuntu122.04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/wtc/.ide_java/ideaIC-2022.3.2/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/home/wtc/.ide_java/ideaIC-2022.3.2/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/home/wtc/.ide_java/ideaIC-2022.3.2/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.0.12-76060006-generic"/>
+    <property name="user.home" value="/home/wtc"/>
+    <property name="user.timezone" value="Africa/Maseru"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="wtc"/>
+    <property name="java.class.path" value="/home/wtc/.ide_java/ideaIC-2022.3.2/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/home/wtc/.ide_java/ideaIC-2022.3.2/plugins/maven/lib/maven3/boot/plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="maven.home" value="/home/wtc/.ide_java/ideaIC-2022.3.2/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.example.testing.calculatorTest" name="org.example.testing.calculatorTest.testAdd" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testAdd(calculatorTest.java:21)
+</failure>
+  </testcase>
+  <testcase classname="org.example.testing.calculatorTest" name="org.example.testing.calculatorTest.testSubtract" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testSubtract(calculatorTest.java:28)
+</failure>
+  </testcase>
+  <testcase classname="org.example.testing.calculatorTest" name="org.example.testing.calculatorTest.testMultiply" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testMultiply(calculatorTest.java:35)
+</failure>
+  </testcase>
+  <testcase classname="org.example.testing.calculatorTest" name="org.example.testing.calculatorTest.testDivide" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testDivide(calculatorTest.java:42)
+</failure>
+  </testcase>
+  <testcase classname="org.example.testing.calculatorTest" name="org.example.testing.calculatorTest.testDivideByZero" time="0.024">
+    <failure message="Dividing by zero should throw an ArithmeticException ==&gt; Unexpected exception type thrown ==&gt; expected: &lt;java.lang.ArithmeticException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Dividing by zero should throw an ArithmeticException ==&gt; Unexpected exception type thrown ==&gt; expected: &lt;java.lang.ArithmeticException&gt; but was: &lt;java.lang.NullPointerException&gt;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:65)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:41)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3098)
+	at org.example.testing.calculatorTest.testDivideByZero(calculatorTest.java:49)
+Caused by: java.lang.NullPointerException
+	at org.example.testing.calculatorTest.lambda$testDivideByZero$0(calculatorTest.java:49)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
+	... 21 more
+</failure>
+  </testcase>
+  <testcase classname="org.example.testing.calculatorTest" name="org.example.testing.calculatorTest.testResultType" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testResultType(calculatorTest.java:55)
+</failure>
+  </testcase>
+</testsuite>

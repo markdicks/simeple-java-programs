@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: org.example.testing.calculatorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+org.example.testing.calculatorTest.testAdd()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testAdd(calculatorTest.java:21)
+
+org.example.testing.calculatorTest.testSubtract()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testSubtract(calculatorTest.java:28)
+
+org.example.testing.calculatorTest.testMultiply()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testMultiply(calculatorTest.java:35)
+
+org.example.testing.calculatorTest.testDivide()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testDivide(calculatorTest.java:42)
+
+org.example.testing.calculatorTest.testDivideByZero()  Time elapsed: 0.024 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Dividing by zero should throw an ArithmeticException ==> Unexpected exception type thrown ==> expected: <java.lang.ArithmeticException> but was: <java.lang.NullPointerException>
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:65)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:41)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3098)
+	at org.example.testing.calculatorTest.testDivideByZero(calculatorTest.java:49)
+Caused by: java.lang.NullPointerException
+	at org.example.testing.calculatorTest.lambda$testDivideByZero$0(calculatorTest.java:49)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
+	... 21 more
+
+org.example.testing.calculatorTest.testResultType()  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.testing.calculatorTest.testResultType(calculatorTest.java:55)
+
